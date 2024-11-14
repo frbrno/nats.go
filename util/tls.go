@@ -24,5 +24,5 @@ func CloneTLSConfig(c *tls.Config) *tls.Config {
 		return &tls.Config{}
 	}
 
-	return c.Clone()
+	return c
 }
