@@ -18,7 +18,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/nats-io/nats.go"
+	"github.com/frbrno/nats.go"
 )
 
 // NOTE: Can test with demo servers.

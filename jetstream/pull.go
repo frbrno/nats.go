@@ -22,8 +22,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/nats-io/nats.go"
-	"github.com/nats-io/nats.go/internal/syncx"
+	"github.com/frbrno/nats.go"
+	"github.com/frbrno/nats.go/internal/syncx"
 	"github.com/nats-io/nuid"
 )
 

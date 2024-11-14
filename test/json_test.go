@@ -18,8 +18,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nats-io/nats.go"
-	"github.com/nats-io/nats.go/encoders/builtin"
+	"github.com/frbrno/nats.go"
+	"github.com/frbrno/nats.go/encoders/builtin"
 )
 
 //lint:file-ignore SA1019 Ignore deprecation warnings for EncodedConn

@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nats-io/nats.go"
+	"github.com/frbrno/nats.go"
 )
 
 func TestMessageMetadata(t *testing.T) {

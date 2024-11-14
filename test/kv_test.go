@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/frbrno/nats.go"
 	"github.com/nats-io/nats-server/v2/server"
-	"github.com/nats-io/nats.go"
 )
 
 func TestKeyValueBasics(t *testing.T) {

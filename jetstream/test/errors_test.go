@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nats-io/nats.go"
-	"github.com/nats-io/nats.go/jetstream"
+	"github.com/frbrno/nats.go"
+	"github.com/frbrno/nats.go/jetstream"
 )
 
 func TestJetStreamErrors(t *testing.T) {

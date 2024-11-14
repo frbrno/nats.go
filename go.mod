@@ -1,4 +1,4 @@
-module github.com/nats-io/nats.go
+module github.com/frbrno/nats.go
 
 go 1.20
 

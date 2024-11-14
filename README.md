@@ -5,11 +5,11 @@ A [Go](http://golang.org) client for the [NATS messaging system](https://nats.io
 
 [License-Url]: https://www.apache.org/licenses/LICENSE-2.0
 [License-Image]: https://img.shields.io/badge/License-Apache2-blue.svg
-[ReportCard-Url]: https://goreportcard.com/report/github.com/nats-io/nats.go
-[ReportCard-Image]: https://goreportcard.com/badge/github.com/nats-io/nats.go
-[Build-Status-Url]: https://github.com/nats-io/nats.go/actions
-[Build-Status-Image]: https://github.com/nats-io/nats.go/actions/workflows/ci.yaml/badge.svg?branch=main
-[GoDoc-Url]: https://pkg.go.dev/github.com/nats-io/nats.go
+[ReportCard-Url]: https://goreportcard.com/report/github.com/frbrno/nats.go
+[ReportCard-Image]: https://goreportcard.com/badge/github.com/frbrno/nats.go
+[Build-Status-Url]: https://github.com/frbrno/nats.go/actions
+[Build-Status-Image]: https://github.com/frbrno/nats.go/actions/workflows/ci.yaml/badge.svg?branch=main
+[GoDoc-Url]: https://pkg.go.dev/github.com/frbrno/nats.go
 [GoDoc-Image]: https://img.shields.io/badge/GoDoc-reference-007d9c
 [Coverage-Url]: https://coveralls.io/r/nats-io/nats.go?branch=main
 [Coverage-image]: https://coveralls.io/repos/github/nats-io/nats.go/badge.svg?branch=main
@@ -20,7 +20,7 @@ A [Go](http://golang.org) client for the [NATS messaging system](https://nats.io
 
 ```bash
 # Go client
-go get github.com/nats-io/nats.go/
+go get github.com/frbrno/nats.go/
 
 # Server
 go get github.com/nats-io/nats-server
@@ -30,8 +30,8 @@ When using or transitioning to Go modules support:
 
 ```bash
 # Go client latest or explicit version
-go get github.com/nats-io/nats.go/@latest
-go get github.com/nats-io/nats.go/@v1.37.0
+go get github.com/frbrno/nats.go/@latest
+go get github.com/frbrno/nats.go/@v1.37.0
 
 # For latest NATS Server, add /v2 at the end
 go get github.com/nats-io/nats-server/v2
@@ -43,7 +43,7 @@ go get github.com/nats-io/nats-server/v2
 ## Basic Usage
 
 ```go
-import "github.com/nats-io/nats.go"
+import "github.com/frbrno/nats.go"
 
 // Connect to a server
 nc, _ := nats.Connect(nats.DefaultURL)
@@ -93,7 +93,7 @@ nc.Close()
 ```
 
 ## JetStream
-[![JetStream API Reference](https://pkg.go.dev/badge/github.com/nats-io/nats.go/jetstream.svg)](https://pkg.go.dev/github.com/nats-io/nats.go/jetstream)
+[![JetStream API Reference](https://pkg.go.dev/badge/github.com/frbrno/nats.go/jetstream.svg)](https://pkg.go.dev/github.com/frbrno/nats.go/jetstream)
 
 JetStream is the built-in NATS persistence system. `nats.go` provides a built-in
 API enabling both managing JetStream assets as well as publishing/consuming

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/nats-io/nats.go/internal/syncx"
+	"github.com/frbrno/nats.go/internal/syncx"
 	"github.com/nats-io/nuid"
 )
 
